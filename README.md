@@ -21,3 +21,6 @@ This repository contains only public downloads and update metadata. Source is
 maintained separately in a private repository. Core tests and compilation
 passed; Windows update handoff/restart is not yet verified on a live desktop.
 Automatic timing does not guarantee perfect scores.
+
+
+Will take down upon request, small project of coding in my free time
