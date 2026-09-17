@@ -1,3 +1,10 @@
+# Version 1.0.19.0
+
+Fix held notes being pressed again: queued detections no longer interrupt an
+active hold. Duplicate near-target detections are filtered, while a separately
+tracked next note waits for tail completion. Regression tests passed; live
+scoring is not verified. Use Check for updates, then Update & restart.
+
 # Version 1.0.18.0
 
 - Fix automatic timing feedback stalling in fast passages.
