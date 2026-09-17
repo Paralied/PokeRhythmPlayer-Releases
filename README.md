@@ -11,6 +11,13 @@ folder your account can write to, such as a dedicated folder under Documents.
 
 Choose an instrument, focus Roblox, then press **F8**. **F9** stops.
 
+## Version 1.0.18.0
+
+- Fix automatic timing stalling during dense passages.
+- Improve long-note recognition, speed tracking and release handling.
+- Install through **Check for updates**, then **Update & restart**.
+- [Full change notes](CHANGELOG.md).
+
 ## Version 1.0.17.0
 
 - Single-EXE distribution and built-in update checking.
