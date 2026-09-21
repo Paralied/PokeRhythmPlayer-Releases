@@ -11,6 +11,12 @@ folder your account can write to, such as a dedicated folder under Documents.
 
 Choose an instrument, focus Roblox, then press **F8**. **F9** stops.
 
+## Version 1.0.20.0
+
+- Fix approaching notes being discarded too early during a hold.
+- Preserve consecutive hold-note presses while preventing duplicate presses of the current hold.
+- Use **Check for updates**, then **Update & restart**.
+
 ## Version 1.0.19.0
 
 - Fix duplicate detections interrupting long-note holds.

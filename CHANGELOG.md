@@ -1,3 +1,7 @@
+# Version 1.0.20.0
+
+Fix premature rejection of approaching notes during holds, introduced in 1.0.19. Consecutive-hold regression and existing core tests pass. Live game scoring remains unverified.
+
 # Version 1.0.19.0
 
 Fix held notes being pressed again: queued detections no longer interrupt an
