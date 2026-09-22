@@ -11,6 +11,13 @@ folder your account can write to, such as a dedicated folder under Documents.
 
 Focus Roblox, then press **F8**. The app detects bass or drums/electric automatically. **F9** stops.
 
+## Version 1.0.22.0
+
+- Track narrow tail bars above the heads with independent lane release deadlines.
+- Restore stable color matching and sixteen-sample timing after reported drum accuracy regression.
+- Keep automatic instrument selection.
+- Use **Check for updates**, then **Update & restart**.
+
 ## Version 1.0.21.0
 
 - Automatic instrument selection and color tolerance.

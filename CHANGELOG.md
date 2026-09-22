@@ -1,3 +1,12 @@
+# Version 1.0.22.0
+
+- Replace tail presence sampling inside the round head with narrow-bar scanning above it. Predict the trailing endpoint crossing and maintain an independent release deadline per lane; missing pixels do not restart that deadline.
+- Separate same-hue scenery from the stem using width and local color/brightness contrast. Hold classification requires attachment to the head.
+- Restore the pre-1.0.21 tap matching and sixteen-sample timing policy. Disable adaptive head-color changes and use the saved stable tolerance (default 55).
+- Keep automatic bass/four-lane selection. Stationary matching is restricted to fired hold tracks, not ordinary approaching notes.
+
+A new head-only regression fails against 1.0.21 and passes here. Tests cover distinct lane deadlines with concurrent taps, same-hue scenery, moving endpoints, missing observations, and recorded bass tail/background frames. Live Windows scoring and recovery of 96–98% drum accuracy remain unverified.
+
 # Version 1.0.21.0
 
 - Detect the instrument automatically from two or four receptors; select F/J or D/F/J/K and search again when the row changes.
