@@ -9,7 +9,14 @@ The app checks for updates on launch. When a newer version is published,
 click **Update & restart**. Your settings are preserved. Keep the EXE in a
 folder your account can write to, such as a dedicated folder under Documents.
 
-Choose an instrument, focus Roblox, then press **F8**. **F9** stops.
+Focus Roblox, then press **F8**. The app detects bass or drums/electric automatically. **F9** stops.
+
+## Version 1.0.21.0
+
+- Automatic instrument selection and color tolerance.
+- Improved separate-note presses during tails and stationary hold tracking.
+- Faster timing trials: eight readable judgments instead of sixteen.
+- Use **Check for updates**, then **Update & restart**.
 
 ## Version 1.0.20.0
 

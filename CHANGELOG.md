@@ -1,3 +1,13 @@
+# Version 1.0.21.0
+
+- Detect the instrument automatically from two or four receptors; select F/J or D/F/J/K and search again when the row changes.
+- Recover fragmented receptor outlines and retain known receptors while held heads hide their letters.
+- Permit verified separate incoming notes during a hold, with a brief release/press and continued sustain. Keep stationary held heads associated with their original tracks.
+- Learn bounded color tolerance per lane from saturated moving head cores.
+- Use eight readable judgments per timing trial instead of sixteen, with faster trial settling and early rejection; one Good among otherwise Perfect feedback does not start a new search.
+
+Core regression tests passed, including recorded two- and four-lane frames and simulated overlapping holds. Live Windows gameplay accuracy is unverified; no perfect-score guarantee.
+
 # Version 1.0.20.0
 
 Fix premature rejection of approaching notes during holds, introduced in 1.0.19. Consecutive-hold regression and existing core tests pass. Live game scoring remains unverified.
